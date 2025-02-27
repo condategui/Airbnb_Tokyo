@@ -2,22 +2,29 @@ import streamlit as st
 
 def summary_section():    
     st.markdown("""
-    ## General Findings
+   ## General Summary
     
-    1. **Neighbourhood**: The majority of listings are concentrated in certain neighbourhoods.
-    2. **Room Type**: Entire homes/apartments are the most common type of listing.
-    3. **Price**: There is a wide range of prices, influenced by location and room type.
-    4. **Minimum Nights**: Different listings have varying minimum night requirements.
+    - **Neighbourhood Distribution**: The distribution of listings across neighbourhoods is not uniform. Surprisingly the most popular neighbourhoods are not only at the Cernter of Tokyo, there are also some neighbourhoods that are not at the center of Tokyo but have a lot of listings.
+    - **Room Type Distribution**: Entire homes/apartments are the most common type of listing, followed by private rooms, hotel rooms and shared rooms.
+    - **Price Distribution**: Prices vary widely, with a significant number of listings at both the lower and higher ends of the spectrum.
+    - **February**: Is the least month with listings. Becuase of the cold weather in Tokyo. And some temples and sanctuaries are closed.
+    - **Minimum and Maximum Nights**: The minimum and maximum nights required for bookings vary across listings.
     
-    ### Specific Findings
     
-    1. **Neighbourhood**: Listings in popular neighbourhoods tend to have higher prices. This reflects the desirability and demand for these locations.
+    ### Accommodations Findings
     
-    2. **Room Type**: Entire homes/apartments command higher prices compared to private or shared rooms. This is expected due to the increased space and privacy offered.
+    - **Taito**: Taito has the chepest listings as well as the more expensive listings.
+    - **Shinjuku**: Shinjuku has the most listings.
+    - **Shared Rooms**: Shared rooms are the cheapest option, in general.
+    - **Entire Homes/Apartments**: Entire homes/apartments are the most common type of listing (>90%).
+    - **More expensive listings**: There are more expensive rooms are Entire Homes/Apartments and Private Rooms. Located at the Sumida and Shibuja neighbourhoods.
     
-    3. **Price**: High-priced listings are generally associated with more luxurious accommodations and prime locations. However, there is also a significant number of budget-friendly options.
     
-    4. **Minimum Nights**: Listings with higher minimum nights may indicate hosts preference for longer stays. This could be due to various factors such as location, price, and host strategy.
+    ### Luxury Accommodations Findings
     
-    The Tokyo Airbnb analysis provides insights into the market dynamics, helping hosts and guests make informed decisions.
+    - **Outliers**: Luxury listings are characterized by their high prices. There were two outliers with extremely high prices, which may be due to unique features or premium services that I excluded from the analysis.
+    - **Average Price**: The average price of luxury listings is significantly higher than that of normal listings, more then 1500%.
+    - **Shinjuku**: Shinjuku has the most luxury listings.
+    - **Taito**: Taito has the highest mean price for luxury listings.
+    - **Entire Homes/Apartments**: Entire homes/apartments are the most common type of luxury listing.
     """)
