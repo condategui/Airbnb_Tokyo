@@ -7,5 +7,7 @@ def render_header():
         st.markdown("""
         Explore Tokyo's accommodation market through real data.
         Discover trends, prices, and property features across different neighborhoods.
+        
+        This is a representative sample of accommodation data.
         """)
     st.markdown("---")
