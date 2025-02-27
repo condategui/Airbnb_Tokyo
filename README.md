@@ -6,6 +6,8 @@
 
 An interactive web application developed with Streamlit that allows you to explore and analyze Airbnb accommodation data in Tokyo. Discover insights through visualizations and statistics on pricing, locations, property types, and market trends.
 
+* This is a representative sample of accommodation data. The original dataset contains 7,399,119 listings.
+
 ### ✨ Features
 
 - **Interactive dashboard** for exploring Tokyo Airbnb data
