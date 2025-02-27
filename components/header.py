@@ -8,6 +8,6 @@ def render_header():
         Explore Tokyo's accommodation market through real data.
         Discover trends, prices, and property features across different neighborhoods.
         
-        This is a representative sample of accommodation data.
+        This is a representative sample of accommodation data. The original dataset contains 7,399,119 listings.
         """)
     st.markdown("---")
