@@ -48,7 +48,7 @@ def display_accommodations_section(normal: pd.DataFrame):
         # Available Accommodations
         with cols[0]:
             st.markdown("### Accommodations")
-            st.markdown(f"<h2 style='text-align: center;'>7399199)
+            st.markdown(f"<h2 style='text-align: center;'>{len(normal):,}</h2>", unsafe_allow_html=True)
 
         # Average Price/Night
         with cols[1]:
