@@ -8,6 +8,8 @@ An interactive web application developed with Streamlit that allows you to explo
 
 * This is a representative sample of accommodation data. The original dataset contains 7,399,119 listings.
 
+Link to see the app online: https://airbnb-tokyo-claudia-ondategui.streamlit.app 
+
 ### ✨ Features
 
 - **Interactive dashboard** for exploring Tokyo Airbnb data
